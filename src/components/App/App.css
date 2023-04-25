@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  width: 100vw; 
+  height: 100vh;
+}
+
+.darkTheme {
+  background-color: black;
+  color: white;
+}
+
+.lightTheme {
+  background-color: white;
+  color: black;
+}
+
+.blockDesign {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.buttonChangeTheme,
+.buttonOpenModal {
+  background-color: #d8e7fd;
+  color: rgb(226, 128, 36);
+  border: none;
+  outline: 2px solid rgb(93, 93, 248);
+  font-weight: 500;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 250px;
+  height: 50px;
+}
